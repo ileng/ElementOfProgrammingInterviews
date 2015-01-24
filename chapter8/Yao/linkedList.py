@@ -19,4 +19,6 @@ def printList(aList):
     iter = aList
     while iter:
         print(iter.value, end = " ")
+        iter = iter.next
+    print()
 
